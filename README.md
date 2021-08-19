@@ -22,3 +22,13 @@ MYSQL_USER: 'user'
 MYSQL_PASSWORD: 'password'
 MYSQL_ROOT_PASSWORD: 'password'
 ```
+
+## Kafka
+
+
+```
+./sh
+./kafka
+```
+
+It will start a kafka cluster with zookeeper and kafdrop ui
