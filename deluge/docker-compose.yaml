@@ -1,0 +1,32 @@
+version: '3'
+services:
+  delugevpn:
+    container_name: delugevpn
+    image: binhex/arch-delugevpn:latest
+    restart: unless-stopped
+    sysctls:
+    - net.ipv4.conf.all.src_valid_mark=1
+    privileged: true
+    ports:
+      - 0.0.0.0:8112:8112
+      - 58846:58846
+      - 58946:58946
+      - 0.0.0.0:8118:8118
+    environment:
+      - VPN_ENABLED=yes
+      - VPN_PROV=custom
+      - VPN_CLIENT=wireguard
+      - ENABLE_PRIVOXY=yes
+      - LAN_NETWORK=192.168.1.0/24 # Replace with your network's IP
+      - NAME_SERVERS=1.1.1.1,1.0.0.1
+      - DELUGE_DAEMON_LOG_LEVEL=info
+      - DELUGE_WEB_LOG_LEVEL=info
+      - DEBUG=false
+      - UMASK=000
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin # Replace with your timezone – check https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for reference
+    volumes:
+      - ./data:/data # Replace WINDOWS_USER_NAME with your actual username
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro

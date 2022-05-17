@@ -1,0 +1,34 @@
+19:49:52 [INFO    ][deluge.configmanager:52  ] Setting config directory to: /config
+19:49:52 [INFO    ][deluge.core.daemon            :94  ] Deluge daemon 2.0.5
+19:49:52 [WARNING ][deluge.core.core              :338 ] Unable to load /config/session.state: [Errno 2] No such file or directory: '/config/session.state'
+19:49:52 [WARNING ][deluge.core.core              :338 ] Unable to load /config/session.state.bak: [Errno 2] No such file or directory: '/config/session.state.bak'
+19:49:52 [INFO    ][deluge.core.alertmanager      :148 ] Alert Queue Size set to 10000
+19:49:52 [INFO    ][deluge.core.rpcserver         :402 ] Starting DelugeRPC server :58846
+19:49:52 [INFO    ][deluge.core.daemon            :154 ] Deluge daemon starting...
+19:49:52 [INFO    ][deluge.core.authmanager       :228 ] Opening auth for load: /config/auth
+19:49:52 [INFO    ][deluge.core.authmanager       :236 ] Successfully loaded auth: /config/auth
+19:49:52 [INFO    ][deluge.core.torrentmanager    :818 ] Loading torrent state: /config/state/torrents.state
+19:49:52 [INFO    ][deluge.core.torrentmanager    :818 ] Loading torrent state: /config/state/torrents.state.bak
+19:49:52 [INFO    ][deluge.core.torrentmanager    :1081] Opening torrents.fastresume for load: /config/state/torrents.fastresume
+19:49:52 [INFO    ][deluge.core.torrentmanager    :1081] Opening torrents.fastresume for load: /config/state/torrents.fastresume.bak
+19:49:52 [INFO    ][deluge.core.torrentmanager    :1081] Opening torrents.fastresume for load: /config/torrents.fastresume
+19:49:52 [INFO    ][deluge.core.torrentmanager    :897 ] Finished loading 0 torrents in 0:00:00.001184
+19:49:53 [INFO    ][deluge.core.torrentmanager    :1630] on_alert_external_ip: 137.184.76.47
+19:49:54 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36176
+19:49:54 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:50:43 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36446
+19:50:43 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36448
+19:50:44 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:50:44 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:50:45 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36452
+19:50:45 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:50:47 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36456
+19:50:47 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:50:47 [INFO    ][deluge.core.rpcserver         :171 ] Deluge Client connection made from: 127.0.0.1:36458
+19:51:35 [INFO    ][deluge.core.torrentmanager    :680 ] Torrent checkmyiptorrent Tracking Link from user "localclient" added
+19:51:35 [WARNING ][deluge.core.torrentmanager    :1270] Torrent id not in torrents loading list: 'b18ea6e613d97db33af98e58a9973acbdac633de'
+19:52:28 [INFO    ][deluge.core.daemon            :176 ] Deluge daemon shutting down, waiting for components to shutdown...
+19:52:28 [INFO    ][deluge.core.core              :308 ] Saving the session.state at: /config/session.state
+19:52:28 [INFO    ][deluge.core.rpcserver         :197 ] Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+19:52:28 [INFO    ][deluge.core.daemon            :168 ] Deluge daemon shutdown successfully
+19:52:28 [INFO    ][deluge.core.daemon_entry      :137 ] Exiting...
