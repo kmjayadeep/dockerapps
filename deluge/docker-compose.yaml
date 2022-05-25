@@ -27,6 +27,6 @@ services:
       - PGID=1000
       - TZ=Europe/Berlin # Replace with your timezone – check https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for reference
     volumes:
-      - ./data:/data # Replace WINDOWS_USER_NAME with your actual username
+      - /home/jayadeep/docker-volumes/deluge-data:/data
       - ./config:/config
       - /etc/localtime:/etc/localtime:ro
