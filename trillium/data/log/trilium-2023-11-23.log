@@ -1,0 +1,17 @@
+11:42:59.108 Generated session secret
+11:42:59.557 DB not initialized, please visit setup page - http://[your-server-host]:8080 to see instructions on how to initialize Trilium.
+11:42:59.557 DB size: 4 KB
+11:43:00.147 {
+  "appVersion": "0.61.14",
+  "dbVersion": 227,
+  "syncVersion": 31,
+  "buildDate": "2023-11-16T00:21:34+01:00",
+  "buildRevision": "0afc41060a935a46642a082128bea5002c2410e1",
+  "dataDirectory": "/home/node/trilium-data",
+  "clipperProtocolVersion": "1.0",
+  "utcDateTime": "2023-11-23T11:42:59.400Z"
+}
+11:43:00.148 CPU model: Intel(R) Core(TM) i7-10710U CPU @ 1.10GHz, logical cores: 12 freq: 3900 Mhz
+11:43:00.148 Trusted reverse proxy: false
+11:43:00.149 App HTTP server starting up at port 8080
+11:43:00.152 Listening on port 8080
