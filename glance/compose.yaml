@@ -11,8 +11,8 @@ services:
       - TZ=Europe/Zurich
       - PUID=3000
       - PGID=3000
-      - IMMICH_API_KEY=AMcgNXmRy4nsEEzXXpNIl2iqqHJ0NARNTZlbKYp8w
-      - ADGUARD_PASSWORD=UxViDPg$23h7BN
+      - IMMICH_API_KEY=abcd
+      - ADGUARD_PASSWORD=efgh
     dns:
       - 1.1.1.1
     restart: unless-stopped
