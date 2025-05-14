@@ -1,0 +1,11 @@
+services:
+  signaturepdf:
+    image: xgaia/signaturepdf:1.7.4
+    volumes:
+      - ./data:/data
+    ports:
+      - 8000:80
+    environment:
+      - SERVERNAME=192.168.1.83
+      - PDF_STORAGE_PATH=/data
+    restart: unless-stopped

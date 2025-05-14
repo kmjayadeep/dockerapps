@@ -90,6 +90,9 @@ pages:
               - title: Psuite
                 url: https://psuite.cosmos.cboxlab.com
                 icon: di:syncthing
+              - title: IT Tools
+                url: https://ittools.cosmos.cboxlab.com
+                icon: di:it-tools
 
           - type: monitor
             cache: 1h
