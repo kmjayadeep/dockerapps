@@ -1,0 +1,21 @@
+services:
+  app:
+    container_name: sonarr
+    hostname: sonarr
+    image: ghcr.io/hotio/sonarr:release-4.0.14.2939
+    environment:
+      - VPN_ENABLED=true
+      - VPN_CONF=wg0
+      - VPN_PROVIDER=generic
+      - VPN_LAN_NETWORK=192.168.1.0/24
+      - VPN_FIREWALL_TYPE=auto
+      - VPN_HEALTHCHECK_ENABLED=false
+      - VPN_AUTO_PORT_FORWARD="false"
+      - VPN_NAMESERVERS=1.1.1.1
+    cap_add:
+      - NET_ADMIN
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv6.conf.all.disable_ipv6=1
+    volumes:
+      - ./config:/config
