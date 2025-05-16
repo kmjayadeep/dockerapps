@@ -60,6 +60,9 @@ pages:
               - title: Readarr
                 url: https://readarr.cosmos.cboxlab.com/
                 icon: di:readarr
+              - title: Lidarr
+                url: https://lidarr.cosmos.cboxlab.com/
+                icon: di:lidarr
 
           - type: monitor
             cache: 1h
@@ -93,6 +96,9 @@ pages:
               - title: IT Tools
                 url: https://ittools.cosmos.cboxlab.com
                 icon: di:it-tools
+              - title: Signature PDF
+                url: https://pdf.cosmos.cboxlab.com
+                icon: di:stirling-pdf
 
           - type: monitor
             cache: 1h
